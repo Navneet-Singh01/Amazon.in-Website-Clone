@@ -1,0 +1,213 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    height: 60px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-wrap: nowrap;
+}
+
+/*box1*/
+.nav-logo{
+    width: 100px;
+    height: 50px;
+}
+.logo{
+    background-image: url("images/amazon\ logo1.png");
+    background-size: cover;
+    height: 48px;
+    width: 100px;
+}
+.border{
+    border: 1.5px solid transparent;
+    border-radius: 2px;
+}
+.border:hover{
+    border: 1.5px solid white;
+    border-radius: 2px;
+}
+/*box2*/
+.location-logo{
+    display: flex;
+    align-items: center; /* center align logo and India*/
+}
+.add-first{
+    color: #CCCCCC;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+.add-second{
+    font-size: 1rem;
+    margin-left: 3px;
+}
+/*box3*/
+.nav-search{
+    background-color: orange;
+    display: flex;
+    height: 40px;
+    width: 600px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+.search-select{
+    width: 52px;
+    border-radius: 5px 0 0 5px;
+    background-color: #E6E6E6;
+    border: none;
+    text-align: center;
+  
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-radius: 0 5px 5px 0;
+    color: #0f1111;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+/*box4*/
+.signin{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/*box5*/
+
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;;
+}
+
+/*panel*/
+.panel{
+    height: 40px;
+    width: 100vw;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-wrap: nowrap;
+}
+.panel a, .panel-options a, .panel-deals a{
+    text-decoration: none;
+    color: white;
+    margin-left: 15px;
+}
+.panel-options{
+  width: 80%;
+  font-size: 0.85rem;
+}
+.panel-deals{
+    height: 40px;
+    width: 180px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: #222f3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Page content*/
+
+#pageContent{
+    background-color: #e3e6e6;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.pageContent-main-image{
+    background-image: url("images/J23_P3B_PC_Hero_ET_2x._CB574334180_.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 1500px;
+}
+/* fadding effect of background image*/
+.pageContent-main-image::before {
+    content: '';
+    top: 0;
+    left: 0;
+    width: 1500px;
+    height: 600px;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(227, 232, 232, 1));
+    pointer-events: none;
+    display: flex;
+    justify-content: center;
+}
+.b-section-layout{
+background-color: transparent;
+height: 900px;
+width: 100vw;
+position: absolute;
+display: flex;
+justify-content: center;
+margin-top: 260px;
+}
+.grid-layout{
+    width: 1460px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 420px 420px;
+    /* border: 2px solid black; */
+    gap: 20px;
+}
+.box{
+    border: 2px solid black;
+    background-color: white;
+    /* display: grid;
+    gap: 10px;
+    justify-content: center;
+    align-items: center; */
+}
+
+.inside-box1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 102px 102px;
+    gap: 10px;
+    justify-content: center;
+    align-content: center;
+    margin: 10px;
+}
+.in-b1{
+    border: 1px solid black;
+    font-weight: 700;
+    
+}
+.box-heading{
+    margin: 10px;
+}
+.box-see-all-offers{
+    margin: 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #007185;
+}
+
+
