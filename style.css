@@ -168,40 +168,46 @@ display: flex;
 justify-content: center;
 margin-top: 260px;
 }
-.grid-layout{
+.outter-grid-layout{ /* outter box having 8 boxes grid*/
     width: 1460px;
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: 420px 420px;
-    /* border: 2px solid black; */
+    /* border: 2px solid yellow; */
     gap: 20px;
 }
-.box{
-    border: 2px solid black;
+.outter-box{ /*outter box contains heading, inner box, foot see all offers*/
+    /* border: 2px solid black; */
     background-color: white;
-    /* display: grid;
-    gap: 10px;
-    justify-content: center;
-    align-items: center; */
-}
-
-.inside-box1{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: 102px 102px;
-    gap: 10px;
-    justify-content: center;
-    align-content: center;
-    margin: 10px;
-}
-.in-b1{
-    border: 1px solid black;
-    font-weight: 700;
-    
 }
 .box-heading{
     margin: 10px;
 }
+
+.inner-box1{ /*inner box grid contains 4 boxes*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 138px 138px;
+    gap: 10px;
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin: 10px;
+    /* border: 2px solid red; */
+    font-weight: 700;
+}
+.inner-inner-b1{ /*inner-inner-box-1 contains img, details text*/
+    /* border: 2px solid green; */
+    font-size: 0.9rem;
+    line-height: 18px;
+    color: rgba(13, 15, 15,0.7);
+
+}
+.box-inner-img{
+    width: 100%;
+    height: 102px;
+    background-size: cover; 
+}
+
 .box-see-all-offers{
     margin: 10px;
     text-decoration: none;
