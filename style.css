@@ -227,3 +227,15 @@ margin-top: 260px;
     font-weight: 700;
     color: #007185;
 }
+/* Footer content*/
+/*footer panel 1*/
+.footer-panel-1 span{
+    height: 50px;
+    background-color: #37475a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    padding: 15px 0;
+}
