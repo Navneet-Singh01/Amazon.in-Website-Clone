@@ -227,6 +227,38 @@ margin-top: 260px;
     font-weight: 700;
     color: #007185;
 }
+#box-4{
+    background-color: transparent;
+}
+.box-4-upper-box{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+.box-4-upper-box-img{
+    height: 100px;
+    width: 100px;
+    background-size: cover;
+    margin: 20px;
+}
+.box-4-upper-box-text{
+    font-size: 24px;
+    text-wrap: wrap;
+    padding: 20px 0 0 20px;
+}
+.box-4-bellow-box{
+display: flex;
+justify-content: center;
+
+}
+.box-4-bellow-box-img{
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    position: relative;
+    bottom: -30px;
+}
+
 /* Footer content*/
 /*footer panel 1*/
 .footer-panel-1 span{
