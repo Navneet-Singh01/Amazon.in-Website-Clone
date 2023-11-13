@@ -82,6 +82,31 @@
 .nav-search:hover{
     border: 2px solid orange;
 }
+/*country selection*/
+
+.country{
+    display: flex;
+    height: 50px;
+    width: 75px;
+    justify-content: center;  
+}
+.country:hover{
+    border: 1.5px solid wheat; 
+    border-radius: 2px; 
+}
+.country-flag-img{
+    height: 14px;
+    width: 22px;
+    background-size: cover;
+    margin-right: 10px;  
+    align-self: last baseline;
+    margin-bottom: 10px;  
+}
+.country span{
+    margin-top: 23px;
+    font-weight: 900;
+    font-size: 1rem;
+}
 
 /*box4*/
 .signin{
