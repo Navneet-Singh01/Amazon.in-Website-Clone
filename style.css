@@ -175,9 +175,10 @@
 #pageContent{
     background-color: #e3e6e6;
     height: 1160px;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
 }
 .pageContent-main-image{
     background-image: url("images/J23_P3B_PC_Hero_ET_2x._CB574334180_.jpg");
