@@ -32,6 +32,7 @@
     display: grid;
     place-content: center;
     padding: 0 10px;
+    cursor: pointer;
 }
 .border:hover{
     border: 1.5px solid white;
@@ -92,7 +93,8 @@
     display: flex;
     height: 50px;
     width: 75px;
-    justify-content: center;  
+    justify-content: center; 
+    cursor: pointer; 
 }
 .country:hover{
     border: 1.5px solid wheat; 
@@ -103,7 +105,7 @@
     width: 22px;
     background-size: cover;
     margin-right: 10px;  
-    align-self: last baseline;
+    align-self: flex-end;
     margin-bottom: 10px;  
 }
 .country span{
@@ -128,7 +130,12 @@
 }
 .nav-cart {
     font-size: 0.85rem;
-    font-weight: 700;;
+    font-weight: 700;
+    display: flex;
+    padding: 10px;
+}
+.nav-cart span{
+    align-self: baseline;
 }
 
 /*panel*/
