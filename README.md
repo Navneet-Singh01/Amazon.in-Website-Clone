@@ -1,4 +1,4 @@
-# Amazon.in-Website-Clone-
+# Amazon.in-Website-Clone
 
 ## Overview
 This project is a static clone of the Amazon.in website, created as part of a personal portfolio. Technologies used are HTML and CSS.
